@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &38830193
+--- !u!1 &5552799
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,57 +127,184 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 38830194}
-  - component: {fileID: 38830195}
+  - component: {fileID: 5552800}
+  - component: {fileID: 5552801}
   m_Layer: 0
-  m_Name: "1.5 \u041A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \xAB\u042F\u0449\u0438\u043A\xBB"
+  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-02"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &38830194
+--- !u!4 &5552800
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38830193}
+  m_GameObject: {fileID: 5552799}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1929003944}
+  m_Father: {fileID: 2100561732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &38830195
+--- !u!114 &5552801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38830193}
+  m_GameObject: {fileID: 5552799}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: "COLLISION[\u042F\u0449\u0438\u043A]=1"
-  title: "1.5 \u041A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \xAB\u042F\u0449\u0438\u043A\xBB"
-  line: 60
+  id: P_PF_3[291-VW-M-02]=1
+  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-02"
+  line: 28
   condition:
-    rid: 1891368939080646736
+    rid: 1891368946101911637
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646736
+    - rid: 1891368946101911637
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
-        source: {fileID: 1812725574}
+        source: {fileID: 277976262}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
+--- !u!1 &20545415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20545416}
+  - component: {fileID: 20545417}
+  m_Layer: 0
+  m_Name: "1.5 \u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20545416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20545415}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483315915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20545417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20545415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: "EVENT[\u0420\u044B\u0447\u0430\u0433]=1"
+  title: "1.5 \u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435"
+  line: 62
+  condition:
+    rid: 1891368946101911648
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911648
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 1720149871}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
+--- !u!1 &42718242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42718243}
+  - component: {fileID: 42718244}
+  m_Layer: 0
+  m_Name: "1.5 \u0417\u0430\u0439\u0442\u0438 \u0432 \u0437\u043E\u043D\u0443 \xAB\u0412\u044B\u0445\u043E\u0434\xBB"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42718243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42718242}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483315915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42718244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42718242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: "P_TC_1[\u0412\u044B\u0445\u043E\u0434]=1"
+  title: "1.5 \u0417\u0430\u0439\u0442\u0438 \u0432 \u0437\u043E\u043D\u0443 \xAB\u0412\u044B\u0445\u043E\u0434\xBB"
+  line: 66
+  condition:
+    rid: 1891368946101911652
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911652
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 254538470}
         value: 1
         conditionSource: {fileID: 0}
         conditionValue: 
@@ -233,6 +360,69 @@ Transform:
   - {fileID: 424811788}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &77011557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77011558}
+  - component: {fileID: 77011559}
+  m_Layer: 0
+  m_Name: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &77011558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77011557}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1426600659}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &77011559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77011557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-06]=0
+  title: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
+  line: 40
+  condition:
+    rid: 1891368946101911643
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911643
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 281194415}
+        value: 0
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1 &105397645
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,8 +927,161 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 640, y: 350.15167}
+  m_SizeDelta: {x: 640, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &159669201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159669204}
+  - component: {fileID: 159669203}
+  - component: {fileID: 159669202}
+  m_Layer: 0
+  m_Name: Cap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &159669202
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159669201}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80dbf6f73f2f74c4d873cdf48a6ead6e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &159669203
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159669201}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &159669204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159669201}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.05, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.05, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 198401443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &177478357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177478358}
+  - component: {fileID: 177478359}
+  m_Layer: 0
+  m_Name: "1.4 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177478358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177478357}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1629740849}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177478359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177478357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-08]=0
+  title: "1.4 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
+  line: 56
+  condition:
+    rid: 1891368946101911647
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911647
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 1210646080}
+        value: 0
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1 &193335268
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +1161,58 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &198401441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198401443}
+  - component: {fileID: 198401442}
+  m_Layer: 0
+  m_Name: "\u041A\u041D-1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &198401442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198401441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cb8dc31e3480244a061208df5be14b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.ButtonMechanic
+  cap: {fileID: 159669204}
+  pressOffset: {x: 0, y: -0.06, z: 0}
+  indicator: {fileID: 159669202}
+  pressedColor: {r: 1, g: 0.85, b: 0.3, a: 1}
+  pressSeconds: 0.25
+--- !u!4 &198401443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198401441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: 0, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 945108210}
+  - {fileID: 159669204}
+  - {fileID: 1141779375}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201050711
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,7 +1249,7 @@ MonoBehaviour:
     outOfOrder: 0
     script: {fileID: 4900000, guid: 6f0c9d52a087664438970999ef235fdb, type: 3}
     ignoreGroups: 1
-    flow: {fileID: 953376241}
+    flow: {fileID: 695879696}
     analyzer:
       rid: 6182849243449655528
   - name: "\u042D\u043A\u0437\u0430\u043C\u0435\u043D"
@@ -863,7 +1258,7 @@ MonoBehaviour:
     outOfOrder: 0
     script: {fileID: 4900000, guid: 6f0c9d52a087664438970999ef235fdb, type: 3}
     ignoreGroups: 0
-    flow: {fileID: 953376241}
+    flow: {fileID: 695879696}
     analyzer:
       rid: 6182849243449655530
   loggers:
@@ -906,7 +1301,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 953376242}
+  - {fileID: 695879697}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221243256
@@ -1097,7 +1492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae55d216ee55034f9ee85a3379fd898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.TriggerSource
-  fireOn: 0
   requiredTag: Player
 --- !u!23 &254538471
 MeshRenderer:
@@ -1358,68 +1752,6 @@ Transform:
   - {fileID: 1131592003}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &278986727
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 278986728}
-  - component: {fileID: 278986729}
-  m_Layer: 0
-  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-01"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &278986728
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278986727}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 954384736}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &278986729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278986727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-01]=1
-  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-01"
-  line: 24
-  condition:
-    rid: 1891368939080646723
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646723
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 778862290}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &281194414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,68 +1804,6 @@ Transform:
   - {fileID: 1668233915}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &281341024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 281341025}
-  - component: {fileID: 281341026}
-  m_Layer: 0
-  m_Name: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &281341025
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281341024}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1240568651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &281341026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281341024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-05]=1
-  title: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
-  line: 34
-  condition:
-    rid: 1891368939080646727
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646727
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 66215222}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &298127000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,7 +1855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!1 &308798349
+--- !u!1 &350131316
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1593,57 +1863,58 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 308798350}
-  - component: {fileID: 308798351}
+  - component: {fileID: 350131317}
+  - component: {fileID: 350131318}
   m_Layer: 0
-  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-02"
+  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-03"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &308798350
+--- !u!4 &350131317
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308798349}
+  m_GameObject: {fileID: 350131316}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 954384736}
+  m_Father: {fileID: 2100561732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &308798351
+--- !u!114 &350131318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308798349}
+  m_GameObject: {fileID: 350131316}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-02]=1
-  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-02"
-  line: 25
+  id: P_PF_3[291-VW-M-03]=1
+  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-03"
+  line: 29
   condition:
-    rid: 1891368939080646724
+    rid: 1891368946101911638
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646724
+    - rid: 1891368946101911638
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
-        source: {fileID: 277976262}
+        source: {fileID: 1230403125}
         value: 1
         conditionSource: {fileID: 0}
         conditionValue: 
@@ -1687,7 +1958,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -20, y: 20}
-  m_SizeDelta: {x: 300, y: 158.52748}
+  m_SizeDelta: {x: 300, y: 0}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &357503838
 MonoBehaviour:
@@ -2106,6 +2377,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380256733}
   m_CullTransparentMesh: 1
+--- !u!1 &381766475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381766476}
+  - component: {fileID: 381766477}
+  m_Layer: 0
+  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381766476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381766475}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1600149699}
+  - {fileID: 1971893781}
+  m_Father: {fileID: 1776602365}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381766477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381766475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
+  parallel: 0
 --- !u!1 &382270480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,7 +2580,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382270480}
   m_CullTransparentMesh: 1
---- !u!1 &402506917
+--- !u!1 &403739311
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2270,58 +2588,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 402506918}
-  - component: {fileID: 402506919}
+  - component: {fileID: 403739312}
+  - component: {fileID: 403739313}
   m_Layer: 0
-  m_Name: "1.5 \u0417\u0430\u0439\u0442\u0438 \u0432 \u0437\u043E\u043D\u0443 \xAB\u0412\u044B\u0445\u043E\u0434\xBB"
+  m_Name: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &402506918
+--- !u!4 &403739312
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402506917}
+  m_GameObject: {fileID: 403739311}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1929003944}
+  m_Father: {fileID: 1426600659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &402506919
+--- !u!114 &403739313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402506917}
+  m_GameObject: {fileID: 403739311}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: "ZONE[\u0412\u044B\u0445\u043E\u0434]=1"
-  title: "1.5 \u0417\u0430\u0439\u0442\u0438 \u0432 \u0437\u043E\u043D\u0443 \xAB\u0412\u044B\u0445\u043E\u0434\xBB"
-  line: 62
+  id: P_PF_3[291-VW-M-05]=0
+  title: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
+  line: 39
   condition:
-    rid: 1891368939080646738
+    rid: 1891368946101911642
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646738
+    - rid: 1891368946101911642
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
-        source: {fileID: 254538470}
-        value: 1
+        source: {fileID: 66215222}
+        value: 0
         conditionSource: {fileID: 0}
         conditionValue: 
 --- !u!1 &424811785
@@ -2624,6 +2943,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457778820}
   m_CullTransparentMesh: 1
+--- !u!1 &489243045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489243046}
+  - component: {fileID: 489243047}
+  m_Layer: 0
+  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &489243046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489243045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2100561732}
+  m_Father: {fileID: 695879697}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &489243047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489243045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
 --- !u!1 &508542261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,10 +3289,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 155796036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -42.569237}
-  m_SizeDelta: {x: 592, y: 37.138474}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &560388283
 MonoBehaviour:
@@ -3207,51 +3571,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629224842}
   m_CullTransparentMesh: 1
---- !u!1 &632928647
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 632928648}
-  - component: {fileID: 632928649}
-  m_Layer: 0
-  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 1"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &632928648
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632928647}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 954384736}
-  m_Father: {fileID: 953376242}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &632928649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632928647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
 --- !u!1 &634497631
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,6 +3650,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &638489654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638489655}
+  - component: {fileID: 638489656}
+  m_Layer: 0
+  m_Name: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u041A\u041D-1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &638489655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638489654}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483315915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &638489656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638489654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: "P_BT_1[\u041A\u041D-1]=1"
+  title: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u041A\u041D-1"
+  line: 64
+  condition:
+    rid: 1891368946101911650
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911650
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 198401442}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1 &650967000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,10 +3749,10 @@ RectTransform:
   - {fileID: 1760093509}
   m_Father: {fileID: 357503837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -70.52748}
-  m_SizeDelta: {x: 272, y: 44}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650967002
 MonoBehaviour:
@@ -3706,7 +4088,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692175555}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &693022736
+--- !u!1 &695879695
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3714,8 +4096,56 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 693022737}
-  - component: {fileID: 693022738}
+  - component: {fileID: 695879697}
+  - component: {fileID: 695879696}
+  m_Layer: 0
+  m_Name: Scenario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &695879696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695879695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be37030d6488f043b0616cad32a3822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.ScenarioFlow
+  sourceText: "// \u0423\u0447\u0435\u0431\u043D\u044B\u0439 \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0439 \u0434\u043B\u044F \u043E\u0431\u043E\u0438\u0445 \u0440\u0435\u0436\u0438\u043C\u043E\u0432.\n// \u042D\u043A\u0437\u0430\u043C\u0435\u043D \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u0435\u0433\u043E \u043F\u043E \u0433\u0440\u0443\u043F\u043F\u0430\u043C: \u043E\u0448\u0438\u0431\u043A\u0430 \u2014 \u0448\u0430\u0433 Failed; \u0435\u0441\u043B\u0438 \u0432 \u0433\u0440\u0443\u043F\u043F\u0435 \u043D\u0430\u0431\u0440\u0430\u043B\u043E\u0441\u044C \u0441\u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430\u0440\u0443\u0448\u0435\u043D\u0438\u0439,\n// \u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0443\u043A\u0430\u0437\u0430\u043D\u043E \u0432 \u043F\u043E\u0440\u043E\u0433\u0435 \u0440\u0435\u0436\u0438\u043C\u0430 (\u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E 2), \u043E\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044F \u0448\u0430\u0433\u0438 \u0433\u0440\u0443\u043F\u043F\u044B \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u044E\u0442\u0441\u044F (Skipped).\n// \u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430 (\u0433\u0430\u043B\u043E\u0447\u043A\u0430 Ignore Groups \u0432 \u0440\u0435\u0436\u0438\u043C\u0435) \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u0432\u0441\u0435 \u0448\u0430\u0433\u0438 \u043E\u0434\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u043E\u0439, \u043E\u0448\u0438\u0431\u043A\u0443 \u043C\u043E\u0436\u043D\u043E \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C.\n//\n// \u0428\u0430\u0433:     exec:<\u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430>*#[<\u043E\u0431\u044A\u0435\u043A\u0442>]*#<\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435>*#if:[<\u043E\u0431\u044A\u0435\u043A\u0442>]=<\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435>\n//          \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043C\u043E\u0436\u043D\u043E \u043D\u0435 \u043F\u0438\u0441\u0430\u0442\u044C (\u0431\u0443\u0434\u0435\u0442 1); \u0443\u0441\u043B\u043E\u0432\u0438\u0435 if \u043D\u0435\u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E\n//   P_PF_3    \u2014 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430: 1 \u2014 \u043E\u0442\u043A\u0440\u044B\u0442\u044C, 0 \u2014 \u0437\u0430\u043A\u0440\u044B\u0442\u044C (\u043F\u043E\u0434\u043E\u0439\u0442\u0438: E \u2014 \u043E\u0442\u043A\u0440\u044B\u0442\u044C, Q \u2014 \u0437\u0430\u043A\u0440\u044B\u0442\u044C)\n//   P_BT_1    \u2014 \u043A\u043D\u043E\u043F\u043A\u0430 \u043D\u0430 \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435 (\u043F\u043E\u0434\u043E\u0439\u0442\u0438: E \u2014 \u043D\u0430\u0436\u0430\u0442\u044C)\n//   P_TC_1    \u2014 \u0437\u043E\u043D\u0430 \u043D\u0430 \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435: 1 \u2014 \u0432\u043E\u0439\u0442\u0438, 0 \u2014 \u0432\u044B\u0439\u0442\u0438; if:[\u0437\u043E\u043D\u0430]=1 \u2014 \xAB\u043F\u043E\u043A\u0430 \u0432\u044B \u0432 \u0437\u043E\u043D\u0435\xBB\n//   BUTTON    \u2014 \u043A\u043D\u043E\u043F\u043A\u0430 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435 (\u043C\u044B\u0448\u044C\u044E)\n//   COLLISION \u2014 \u0441\u0442\u043E\u043B\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u0435 \u0441 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u043C EVENT \u2014 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0438\u0437 UnityEvent (\u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435)\n// \u0411\u043B\u043E\u043A\u0438:   start_parallel ... stop_parallel     \u2014 \u0448\u0430\u0433\u0438 \u0432\u043D\u0443\u0442\u0440\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0441\u0440\u0430\u0437\u0443, \u0432 \u043B\u044E\u0431\u043E\u043C \u043F\u043E\u0440\u044F\u0434\u043A\u0435\n//          start_continuous ... stop_continuous \u2014 \u0448\u0430\u0433\u0438 \u0432\u043D\u0443\u0442\u0440\u0438 \u0441\u0442\u0440\u043E\u0433\u043E \u043F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438\n// \u0413\u0440\u0443\u043F\u043F\u0430:  start_group:<\u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435> ... stop_group \u2014 \u0433\u0440\u0443\u043F\u043F\u044B \u0438\u0434\u0443\u0442 \u043F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438\n// \u0417\u0430\u043F\u0440\u0435\u0442:  forbid:<\u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430>*#[<\u043E\u0431\u044A\u0435\u043A\u0442>]*#<\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435>*#<\u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435> \u2014 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043D\u0435\u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E\n//          (\u0431\u0435\u0437 \u043D\u0435\u0433\u043E \u0437\u0430\u043F\u0440\u0435\u0449\u0435\u043D\u043E \u043B\u044E\u0431\u043E\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435); \u0432\u043D\u0435 \u0433\u0440\u0443\u043F\u043F \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u043D\u0430 \u0432\u0435\u0441\u044C \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0439,\n//          \u0432\u043D\u0443\u0442\u0440\u0438 \u0431\u043B\u043E\u043A\u0430 \u2014 \u043F\u043E\u043A\u0430 \u0431\u043B\u043E\u043A \u0430\u043A\u0442\u0438\u0432\u0435\u043D\n// \u041D\u043E\u043C\u0435\u0440:   set_action_number:<\u043D\u043E\u043C\u0435\u0440> \u2014 \u043F\u043E\u0434\u043F\u0438\u0441\u044B\u0432\u0430\u0435\u0442 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u0448\u0430\u0433\u0438 \u0431\u043B\u043E\u043A\u0430\n// \u041F\u043E\u0441\u043B\u0435 \u043F\u0440\u0430\u0432\u043A\u0438 \u0444\u0430\u0439\u043B\u0430 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u0421\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0438\xBB \u0432 Scenario Runner.\n\nforbid:P_TC_1*#[\u041E\u043F\u0430\u0441\u043D\u0430\u044F \u0437\u043E\u043D\u0430]*#1*#\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 1\n\tstart_parallel\n\t\tset_action_number:1.1\n\t\texec:P_PF_3*#[291-VW-M-01]*#1\n\t\texec:P_PF_3*#[291-VW-M-02]*#1\n\t\texec:P_PF_3*#[291-VW-M-03]*#1\n\t\texec:P_PF_3*#[291-VW-M-04]*#1\n\tstop_parallel\nstop_group\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 2\n\tstart_continuous\n\t\tset_action_number:1.2\n\t\texec:P_PF_3*#[291-VW-M-05]*#1\n\t\texec:P_PF_3*#[291-VW-M-06]*#1\n\t\texec:P_PF_3*#[291-VW-M-05]*#0\n\t\texec:P_PF_3*#[291-VW-M-06]*#0\n\tstop_continuous\nstop_group\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 3\n\t// \u0414\u0432\u0435 \u043D\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043C\u044B\u0435 \u0432\u0435\u0442\u043A\u0438: \u043A\u0430\u0436\u0434\u0430\u044F \u043F\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0443, \u0430 \u043C\u0435\u0436\u0434\u0443 \u0441\u043E\u0431\u043E\u0439 \u2014 \u0432 \u043B\u044E\u0431\u043E\u043C \u043F\u043E\u0440\u044F\u0434\u043A\u0435.\n\t// \u0417\u0430\u043A\u0440\u044B\u0442\u044C 07 \u043C\u043E\u0436\u043D\u043E, \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u043A\u0430 08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430.\n\tstart_parallel\n\t\tstart_continuous\n\t\t\tset_action_number:1.3\n\t\t\texec:P_PF_3*#[291-VW-M-07]*#1\n\t\t\texec:P_PF_3*#[291-VW-M-07]*#0*#if:[291-VW-M-08]=1\n\t\tstop_continuous\n\t\tstart_continuous\n\t\t\tset_action_number:1.4\n\t\t\texec:P_PF_3*#[291-VW-M-08]*#1\n\t\t\texec:P_PF_3*#[291-VW-M-08]*#0\n\t\tstop_continuous\n\tstop_parallel\n\n\tstart_parallel\n\t\tset_action_number:1.5\n\t\texec:EVENT*#[\u0420\u044B\u0447\u0430\u0433]\n\t\texec:COLLISION*#[\u042F\u0449\u0438\u043A]\n\t\texec:P_BT_1*#[\u041A\u041D-1]\n\t\texec:BUTTON*#[\u0414\u043E\u043A\u043B\u0430\u0434]\n\t\texec:P_TC_1*#[\u0412\u044B\u0445\u043E\u0434]\n\tstop_parallel\nstop_group\n"
+--- !u!4 &695879697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695879695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 489243046}
+  - {fileID: 1225873207}
+  - {fileID: 1500315587}
+  m_Father: {fileID: 201050713}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &724326549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724326550}
+  - component: {fileID: 724326551}
   m_Layer: 0
   m_Name: "1.4 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
   m_TagString: Untagged
@@ -3723,28 +4153,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &693022737
+--- !u!4 &724326550
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693022736}
+  m_GameObject: {fileID: 724326549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1765466123}
+  m_Father: {fileID: 1629740849}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &693022738
+--- !u!114 &724326551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693022736}
+  m_GameObject: {fileID: 724326549}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
@@ -3752,16 +4182,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
   id: P_PF_3[291-VW-M-08]=1
   title: "1.4 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
-  line: 52
+  line: 55
   condition:
-    rid: 1891368939080646733
+    rid: 1891368946101911646
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646733
+    - rid: 1891368946101911646
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
         source: {fileID: 1210646080}
@@ -3976,68 +4407,6 @@ Transform:
   - {fileID: 2021812968}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &798748314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 798748315}
-  - component: {fileID: 798748316}
-  m_Layer: 0
-  m_Name: "1.4 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &798748315
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798748314}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1765466123}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &798748316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798748314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-08]=0
-  title: "1.4 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-08"
-  line: 53
-  condition:
-    rid: 1891368939080646734
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646734
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 1210646080}
-        value: 0
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &825492901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4216,68 +4585,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1230403126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &850722945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 850722946}
-  - component: {fileID: 850722947}
-  m_Layer: 0
-  m_Name: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &850722946
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850722945}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1240568651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &850722947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850722945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-05]=0
-  title: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
-  line: 36
-  condition:
-    rid: 1891368939080646729
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646729
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 66215222}
-        value: 0
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &851964912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,68 +4689,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &859726146
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 859726147}
-  - component: {fileID: 859726148}
-  m_Layer: 0
-  m_Name: "1.5 \u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &859726147
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859726146}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1929003944}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &859726148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859726146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: "EVENT[\u0420\u044B\u0447\u0430\u0433]=1"
-  title: "1.5 \u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435"
-  line: 59
-  condition:
-    rid: 1891368939080646735
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646735
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 1720149871}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &914472584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,6 +4934,181 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938287383}
   m_CullTransparentMesh: 1
+--- !u!1 &938335366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938335367}
+  - component: {fileID: 938335368}
+  m_Layer: 0
+  m_Name: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \xAB\u0414\u043E\u043A\u043B\u0430\u0434\xBB"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938335367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938335366}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483315915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938335368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938335366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: "BUTTON[\u0414\u043E\u043A\u043B\u0430\u0434]=1"
+  title: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \xAB\u0414\u043E\u043A\u043B\u0430\u0434\xBB"
+  line: 65
+  condition:
+    rid: 1891368946101911651
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911651
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 650967002}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
+--- !u!1 &945108209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945108210}
+  - component: {fileID: 945108213}
+  - component: {fileID: 945108212}
+  - component: {fileID: 945108211}
+  m_Layer: 0
+  m_Name: Stand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &945108210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945108209}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 0.6, y: 1, z: 0.6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 198401443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &945108211
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945108209}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 137b30c3546bc4d4e8a365171be13878, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &945108212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945108209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &945108213
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945108209}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &945611287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4724,10 +5144,10 @@ RectTransform:
   - {fileID: 1937747728}
   m_Father: {fileID: 155796036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -174.15167}
-  m_SizeDelta: {x: 592, y: 56}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945611289
 MonoBehaviour:
@@ -4949,103 +5369,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &953376240
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 953376242}
-  - component: {fileID: 953376241}
-  m_Layer: 0
-  m_Name: Scenario
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &953376241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953376240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8be37030d6488f043b0616cad32a3822, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.ScenarioFlow
-  sourceText: "// \u0423\u0447\u0435\u0431\u043D\u044B\u0439 \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0439 \u0434\u043B\u044F \u043E\u0431\u043E\u0438\u0445 \u0440\u0435\u0436\u0438\u043C\u043E\u0432.\n// \u042D\u043A\u0437\u0430\u043C\u0435\u043D \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u0435\u0433\u043E \u043F\u043E \u0433\u0440\u0443\u043F\u043F\u0430\u043C: \u043E\u0448\u0438\u0431\u043A\u0430 \u2014 \u0448\u0430\u0433 Failed; \u0435\u0441\u043B\u0438 \u0432 \u0433\u0440\u0443\u043F\u043F\u0435 \u043D\u0430\u0431\u0440\u0430\u043B\u043E\u0441\u044C \u0441\u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430\u0440\u0443\u0448\u0435\u043D\u0438\u0439,\n// \u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0443\u043A\u0430\u0437\u0430\u043D\u043E \u0432 \u043F\u043E\u0440\u043E\u0433\u0435 \u0440\u0435\u0436\u0438\u043C\u0430 (\u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E 2), \u043E\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044F \u0448\u0430\u0433\u0438 \u0433\u0440\u0443\u043F\u043F\u044B \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u044E\u0442\u0441\u044F (Skipped).\n// \u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430 (\u0433\u0430\u043B\u043E\u0447\u043A\u0430 Ignore Groups \u0432 \u0440\u0435\u0436\u0438\u043C\u0435) \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u0432\u0441\u0435 \u0448\u0430\u0433\u0438 \u043E\u0434\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u043E\u0439, \u043E\u0448\u0438\u0431\u043A\u0443 \u043C\u043E\u0436\u043D\u043E \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C.\n//\n// \u0428\u0430\u0433:     exec:<\u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430>*#[<\u043E\u0431\u044A\u0435\u043A\u0442>]*#<\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435>*#if:[<\u043E\u0431\u044A\u0435\u043A\u0442>]=<\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435>\n//          \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043C\u043E\u0436\u043D\u043E \u043D\u0435 \u043F\u0438\u0441\u0430\u0442\u044C (\u0431\u0443\u0434\u0435\u0442 1); \u0443\u0441\u043B\u043E\u0432\u0438\u0435 if \u043D\u0435\u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E\n//   P_PF_3    \u2014 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430: 1 \u2014 \u043E\u0442\u043A\u0440\u044B\u0442\u044C, 0 \u2014 \u0437\u0430\u043A\u0440\u044B\u0442\u044C (\u043F\u043E\u0434\u043E\u0439\u0442\u0438: E \u2014 \u043E\u0442\u043A\u0440\u044B\u0442\u044C, Q \u2014 \u0437\u0430\u043A\u0440\u044B\u0442\u044C)\n//   BUTTON    \u2014 \u043A\u043D\u043E\u043F\u043A\u0430 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435        ZONE  \u2014 \u0437\u043E\u043D\u0430 \u043D\u0430 \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435\n//   COLLISION \u2014 \u0441\u0442\u043E\u043B\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u0435 \u0441 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u043C EVENT \u2014 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0438\u0437 UnityEvent (\u0440\u044B\u0447\u0430\u0433 \u043D\u0430 \u043F\u0443\u043B\u044C\u0442\u0435)\n// \u0411\u043B\u043E\u043A\u0438:   start_parallel ... stop_parallel     \u2014 \u0448\u0430\u0433\u0438 \u0432\u043D\u0443\u0442\u0440\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0441\u0440\u0430\u0437\u0443, \u0432 \u043B\u044E\u0431\u043E\u043C \u043F\u043E\u0440\u044F\u0434\u043A\u0435\n//          start_continuous ... stop_continuous \u2014 \u0448\u0430\u0433\u0438 \u0432\u043D\u0443\u0442\u0440\u0438 \u0441\u0442\u0440\u043E\u0433\u043E \u043F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438\n// \u0413\u0440\u0443\u043F\u043F\u0430:  start_group:<\u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435> ... stop_group \u2014 \u0433\u0440\u0443\u043F\u043F\u044B \u0438\u0434\u0443\u0442 \u043F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438\n// \u0417\u0430\u043F\u0440\u0435\u0442:  forbid:<\u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430>*#[<\u043E\u0431\u044A\u0435\u043A\u0442>]*#<\u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435> \u2014 \u0432\u043D\u0435 \u0433\u0440\u0443\u043F\u043F \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u043D\u0430 \u0432\u0435\u0441\u044C \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0439,\n//          \u0432\u043D\u0443\u0442\u0440\u0438 \u0431\u043B\u043E\u043A\u0430 \u2014 \u043F\u043E\u043A\u0430 \u0431\u043B\u043E\u043A \u0430\u043A\u0442\u0438\u0432\u0435\u043D\n// \u041D\u043E\u043C\u0435\u0440:   set_action_number:<\u043D\u043E\u043C\u0435\u0440> \u2014 \u043F\u043E\u0434\u043F\u0438\u0441\u044B\u0432\u0430\u0435\u0442 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u0448\u0430\u0433\u0438 \u0431\u043B\u043E\u043A\u0430\n// \u041F\u043E\u0441\u043B\u0435 \u043F\u0440\u0430\u0432\u043A\u0438 \u0444\u0430\u0439\u043B\u0430 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u0421\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0438\xBB \u0432 Scenario Runner.\n\nforbid:ZONE*#[\u041E\u043F\u0430\u0441\u043D\u0430\u044F \u0437\u043E\u043D\u0430]*#\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 1\n\tstart_parallel\n\t\tset_action_number:1.1\n\t\texec:P_PF_3*#[291-VW-M-01]*#1\n\t\texec:P_PF_3*#[291-VW-M-02]*#1\n\t\texec:P_PF_3*#[291-VW-M-03]*#1\n\t\texec:P_PF_3*#[291-VW-M-04]*#1\n\tstop_parallel\nstop_group\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 2\n\tstart_continuous\n\t\tset_action_number:1.2\n\t\texec:P_PF_3*#[291-VW-M-05]*#1\n\t\texec:P_PF_3*#[291-VW-M-06]*#1\n\t\texec:P_PF_3*#[291-VW-M-05]*#0\n\t\texec:P_PF_3*#[291-VW-M-06]*#0\n\tstop_continuous\nstop_group\n\nstart_group:\u0413\u0440\u0443\u043F\u043F\u0430 3\n\t// \u0414\u0432\u0435 \u043D\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043C\u044B\u0435 \u0432\u0435\u0442\u043A\u0438: \u043A\u0430\u0436\u0434\u0430\u044F \u043F\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0443, \u0430 \u043C\u0435\u0436\u0434\u0443 \u0441\u043E\u0431\u043E\u0439 \u2014 \u0432 \u043B\u044E\u0431\u043E\u043C \u043F\u043E\u0440\u044F\u0434\u043A\u0435.\n\t// \u0417\u0430\u043A\u0440\u044B\u0442\u044C 07 \u043C\u043E\u0436\u043D\u043E, \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u043A\u0430 08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430.\n\tstart_parallel\n\t\tstart_continuous\n\t\t\tset_action_number:1.3\n\t\t\texec:P_PF_3*#[291-VW-M-07]*#1\n\t\t\texec:P_PF_3*#[291-VW-M-07]*#0*#if:[291-VW-M-08]=1\n\t\tstop_continuous\n\t\tstart_continuous\n\t\t\tset_action_number:1.4\n\t\t\texec:P_PF_3*#[291-VW-M-08]*#1\n\t\t\texec:P_PF_3*#[291-VW-M-08]*#0\n\t\tstop_continuous\n\tstop_parallel\n\n\tstart_parallel\n\t\tset_action_number:1.5\n\t\texec:EVENT*#[\u0420\u044B\u0447\u0430\u0433]\n\t\texec:COLLISION*#[\u042F\u0449\u0438\u043A]\n\t\texec:BUTTON*#[\u0414\u043E\u043A\u043B\u0430\u0434]\n\t\texec:ZONE*#[\u0412\u044B\u0445\u043E\u0434]\n\tstop_parallel\nstop_group\n"
---- !u!4 &953376242
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953376240}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 632928648}
-  - {fileID: 1398420478}
-  - {fileID: 2032453141}
-  m_Father: {fileID: 201050713}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &954384735
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 954384736}
-  - component: {fileID: 954384737}
-  m_Layer: 0
-  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &954384736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954384735}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 278986728}
-  - {fileID: 308798350}
-  - {fileID: 1464418798}
-  - {fileID: 1624835707}
-  m_Father: {fileID: 632928648}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &954384737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954384735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 1
 --- !u!1 &963542233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5136,68 +5459,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1210646081}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &971155818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 971155819}
-  - component: {fileID: 971155820}
-  m_Layer: 0
-  m_Name: "1.3 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &971155819
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971155818}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1710248055}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &971155820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971155818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-07]=1
-  title: "1.3 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07"
-  line: 47
-  condition:
-    rid: 1891368939080646731
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646731
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 446062201}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &983697012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,6 +6158,173 @@ Transform:
   m_Children: []
   m_Father: {fileID: 277976263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1136649540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136649541}
+  - component: {fileID: 1136649542}
+  m_Layer: 0
+  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-01"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1136649541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136649540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2100561732}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1136649542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136649540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-01]=1
+  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-01"
+  line: 27
+  condition:
+    rid: 1891368946101911636
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911636
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 778862290}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
+--- !u!1 &1141779374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1141779375}
+  - component: {fileID: 1141779377}
+  - component: {fileID: 1141779376}
+  m_Layer: 0
+  m_Name: "Label \u041A\u041D-1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1141779375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141779374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.46174863, y: -0, z: -0, w: 0.8870109}
+  m_LocalPosition: {x: 0, y: 1.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 198401443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1141779376
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141779374}
+  m_Text: "\u041A\u041D-1"
+  m_OffsetZ: 0
+  m_CharacterSize: 0.08
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 48
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1141779377
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141779374}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1142930380
 GameObject:
   m_ObjectHideFlags: 0
@@ -6347,7 +6775,7 @@ Transform:
   - {fileID: 963542236}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1219610496
+--- !u!1 &1225873206
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6355,60 +6783,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1219610497}
-  - component: {fileID: 1219610498}
+  - component: {fileID: 1225873207}
+  - component: {fileID: 1225873208}
   m_Layer: 0
-  m_Name: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \xAB\u0414\u043E\u043A\u043B\u0430\u0434\xBB"
+  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1219610497
+--- !u!4 &1225873207
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219610496}
+  m_GameObject: {fileID: 1225873206}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1929003944}
+  m_Children:
+  - {fileID: 1426600659}
+  m_Father: {fileID: 695879697}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1219610498
+--- !u!114 &1225873208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219610496}
+  m_GameObject: {fileID: 1225873206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: "BUTTON[\u0414\u043E\u043A\u043B\u0430\u0434]=1"
-  title: "1.5 \u041D\u0430\u0436\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \xAB\u0414\u043E\u043A\u043B\u0430\u0434\xBB"
-  line: 61
-  condition:
-    rid: 1891368939080646737
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646737
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 650967002}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
 --- !u!1 &1230403124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6461,117 +6872,6 @@ Transform:
   - {fileID: 835477387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1240568650
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1240568651}
-  - component: {fileID: 1240568652}
-  m_Layer: 0
-  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1240568651
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240568650}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 281341025}
-  - {fileID: 1326417908}
-  - {fileID: 850722946}
-  - {fileID: 1436649892}
-  m_Father: {fileID: 1398420478}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1240568652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240568650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 0
---- !u!1 &1241342449
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1241342450}
-  - component: {fileID: 1241342451}
-  m_Layer: 0
-  m_Name: "1.3 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07 (\u043A\u043E\u0433\u0434\u0430 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430 291-VW-M-08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430)"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1241342450
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241342449}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1710248055}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1241342451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241342449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-07]=0
-  title: "1.3 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07 (\u043A\u043E\u0433\u0434\u0430 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430 291-VW-M-08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430)"
-  line: 48
-  condition:
-    rid: 1891368939080646732
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646732
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 446062201}
-        value: 0
-        conditionSource: {fileID: 1210646080}
-        conditionValue: 1
 --- !u!1 &1278680879
 GameObject:
   m_ObjectHideFlags: 0
@@ -6604,10 +6904,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 357503837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -27.26374}
-  m_SizeDelta: {x: 272, y: 26.527481}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278680881
 MonoBehaviour:
@@ -6651,68 +6951,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278680879}
   m_CullTransparentMesh: 1
---- !u!1 &1326417907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1326417908}
-  - component: {fileID: 1326417909}
-  m_Layer: 0
-  m_Name: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1326417908
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326417907}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1240568651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1326417909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326417907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-06]=1
-  title: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
-  line: 35
-  condition:
-    rid: 1891368939080646728
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646728
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 281194415}
-        value: 1
-        conditionSource: {fileID: 0}
-        conditionValue: 
 --- !u!1 &1333689337
 GameObject:
   m_ObjectHideFlags: 0
@@ -7053,7 +7291,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1398420477
+--- !u!1 &1426600658
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7061,105 +7299,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1398420478}
-  - component: {fileID: 1398420479}
+  - component: {fileID: 1426600659}
+  - component: {fileID: 1426600660}
   m_Layer: 0
-  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 2"
+  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1398420478
+--- !u!4 &1426600659
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398420477}
+  m_GameObject: {fileID: 1426600658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1240568651}
-  m_Father: {fileID: 953376242}
+  - {fileID: 1777359292}
+  - {fileID: 1465663102}
+  - {fileID: 403739312}
+  - {fileID: 77011558}
+  m_Father: {fileID: 1225873207}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1398420479
+--- !u!114 &1426600660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398420477}
+  m_GameObject: {fileID: 1426600658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
---- !u!1 &1436649891
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1436649892}
-  - component: {fileID: 1436649893}
-  m_Layer: 0
-  m_Name: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1436649892
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436649891}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1240568651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1436649893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436649891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-06]=0
-  title: "1.2 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
-  line: 37
-  condition:
-    rid: 1891368939080646730
-  violations:
-  - source: {fileID: 1476337617}
-    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
-  references:
-    version: 2
-    RefIds:
-    - rid: 1891368939080646730
-      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
-      data:
-        source: {fileID: 281194415}
-        value: 0
-        conditionSource: {fileID: 0}
-        conditionValue: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
+  parallel: 0
 --- !u!1 &1438819897
 GameObject:
   m_ObjectHideFlags: 0
@@ -7192,10 +7372,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 155796036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -103.64507}
-  m_SizeDelta: {x: 592, y: 61.013203}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1438819899
 MonoBehaviour:
@@ -7331,7 +7511,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1464418797
+--- !u!1 &1465663101
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7339,57 +7519,58 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1464418798}
-  - component: {fileID: 1464418799}
+  - component: {fileID: 1465663102}
+  - component: {fileID: 1465663103}
   m_Layer: 0
-  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-03"
+  m_Name: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1464418798
+--- !u!4 &1465663102
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464418797}
+  m_GameObject: {fileID: 1465663101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 954384736}
+  m_Father: {fileID: 1426600659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1464418799
+--- !u!114 &1465663103
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464418797}
+  m_GameObject: {fileID: 1465663101}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-03]=1
-  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-03"
-  line: 26
+  id: P_PF_3[291-VW-M-06]=1
+  title: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-06"
+  line: 38
   condition:
-    rid: 1891368939080646725
+    rid: 1891368946101911641
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646725
+    - rid: 1891368946101911641
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
-        source: {fileID: 1230403125}
+        source: {fileID: 281194415}
         value: 1
         conditionSource: {fileID: 0}
         conditionValue: 
@@ -7425,7 +7606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae55d216ee55034f9ee85a3379fd898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.TriggerSource
-  fireOn: 0
   requiredTag: Player
 --- !u!23 &1476337618
 MeshRenderer:
@@ -7520,6 +7700,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1483315914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483315915}
+  - component: {fileID: 1483315916}
+  m_Layer: 0
+  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483315915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483315914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 20545416}
+  - {fileID: 1565498057}
+  - {fileID: 638489655}
+  - {fileID: 938335367}
+  - {fileID: 42718243}
+  m_Father: {fileID: 1500315587}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483315916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483315914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
+  parallel: 1
 --- !u!1 &1497000934
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,6 +7906,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497000934}
   m_CullTransparentMesh: 1
+--- !u!1 &1500315586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500315587}
+  - component: {fileID: 1500315588}
+  m_Layer: 0
+  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 3"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500315587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500315586}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1776602365}
+  - {fileID: 1483315915}
+  m_Father: {fileID: 695879697}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500315588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500315586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
 --- !u!1 &1508705863
 GameObject:
   m_ObjectHideFlags: 0
@@ -7751,53 +8027,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508705863}
   m_CullTransparentMesh: 1
---- !u!1 &1542768242
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1542768243}
-  - component: {fileID: 1542768244}
-  m_Layer: 0
-  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1542768243
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542768242}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1710248055}
-  - {fileID: 1765466123}
-  m_Father: {fileID: 2032453141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1542768244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542768242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 1
 --- !u!1 &1547570261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7912,10 +8141,10 @@ RectTransform:
   - {fileID: 1056403363}
   m_Father: {fileID: 155796036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -304.15167}
-  m_SizeDelta: {x: 592, y: 44}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563609950
 MonoBehaviour:
@@ -8033,6 +8262,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563609948}
   m_CullTransparentMesh: 1
+--- !u!1 &1565498056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565498057}
+  - component: {fileID: 1565498058}
+  m_Layer: 0
+  m_Name: "1.5 \u041A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \xAB\u042F\u0449\u0438\u043A\xBB"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565498057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565498056}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483315915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565498058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565498056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: "COLLISION[\u042F\u0449\u0438\u043A]=1"
+  title: "1.5 \u041A\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0431\u044A\u0435\u043A\u0442\u0430 \xAB\u042F\u0449\u0438\u043A\xBB"
+  line: 63
+  condition:
+    rid: 1891368946101911649
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911649
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 1812725574}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1 &1593090809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8112,7 +8404,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1624835706
+--- !u!1 &1600149698
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8120,60 +8412,108 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1624835707}
-  - component: {fileID: 1624835708}
+  - component: {fileID: 1600149699}
+  - component: {fileID: 1600149700}
   m_Layer: 0
-  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-04"
+  m_Name: "1.3 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1624835707
+--- !u!4 &1600149699
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624835706}
+  m_GameObject: {fileID: 1600149698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 954384736}
+  m_Father: {fileID: 381766476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1624835708
+--- !u!114 &1600149700
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624835706}
+  m_GameObject: {fileID: 1600149698}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
-  id: P_PF_3[291-VW-M-04]=1
-  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-04"
-  line: 27
+  id: P_PF_3[291-VW-M-07]=1
+  title: "1.3 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07"
+  line: 50
   condition:
-    rid: 1891368939080646726
+    rid: 1891368946101911644
   violations:
   - source: {fileID: 1476337617}
+    value: 1
     message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
   references:
     version: 2
     RefIds:
-    - rid: 1891368939080646726
+    - rid: 1891368946101911644
       type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
       data:
-        source: {fileID: 1984107473}
+        source: {fileID: 446062201}
         value: 1
         conditionSource: {fileID: 0}
         conditionValue: 
+--- !u!1 &1629740848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629740849}
+  - component: {fileID: 1629740850}
+  m_Layer: 0
+  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629740849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629740848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 724326550}
+  - {fileID: 177478358}
+  m_Father: {fileID: 1776602365}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1629740850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629740848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
+  parallel: 0
 --- !u!1 &1645462959
 GameObject:
   m_ObjectHideFlags: 0
@@ -8561,53 +8901,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677934873}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1710248054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1710248055}
-  - component: {fileID: 1710248056}
-  m_Layer: 0
-  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1710248055
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710248054}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 971155819}
-  - {fileID: 1241342450}
-  m_Father: {fileID: 1542768243}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1710248056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710248054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 0
 --- !u!1 &1720149869
 GameObject:
   m_ObjectHideFlags: 0
@@ -8643,10 +8936,10 @@ RectTransform:
   - {fileID: 2071193605}
   m_Father: {fileID: 357503837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -122.52748}
-  m_SizeDelta: {x: 272, y: 44}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720149871
 MonoBehaviour:
@@ -9227,7 +9520,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761746379}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1765466122
+--- !u!1 &1776602364
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9235,45 +9528,108 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1765466123}
-  - component: {fileID: 1765466124}
+  - component: {fileID: 1776602365}
+  - component: {fileID: 1776602366}
   m_Layer: 0
-  m_Name: "\u041F\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u0438"
+  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1765466123
+--- !u!4 &1776602365
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765466122}
+  m_GameObject: {fileID: 1776602364}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 693022737}
-  - {fileID: 798748315}
-  m_Father: {fileID: 1542768243}
+  - {fileID: 381766476}
+  - {fileID: 1629740849}
+  m_Father: {fileID: 1500315587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1765466124
+--- !u!114 &1776602366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765466122}
+  m_GameObject: {fileID: 1776602364}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 0
+  parallel: 1
+--- !u!1 &1777359291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777359292}
+  - component: {fileID: 1777359293}
+  m_Layer: 0
+  m_Name: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777359292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777359291}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1426600659}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1777359293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777359291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-05]=1
+  title: "1.2 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-05"
+  line: 37
+  condition:
+    rid: 1891368946101911640
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911640
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 66215222}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1 &1779214438
 GameObject:
   m_ObjectHideFlags: 0
@@ -10045,55 +10401,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916965609}
   m_CullTransparentMesh: 1
---- !u!1 &1929003943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1929003944}
-  - component: {fileID: 1929003945}
-  m_Layer: 0
-  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1929003944
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929003943}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 859726147}
-  - {fileID: 38830194}
-  - {fileID: 1219610497}
-  - {fileID: 402506918}
-  m_Father: {fileID: 2032453141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1929003945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929003943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
-  parallel: 1
 --- !u!1 &1931429344
 GameObject:
   m_ObjectHideFlags: 0
@@ -10551,6 +10858,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1971893780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971893781}
+  - component: {fileID: 1971893782}
+  m_Layer: 0
+  m_Name: "1.3 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07 (\u043A\u043E\u0433\u0434\u0430 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430 291-VW-M-08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1971893781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971893780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 381766476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971893782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971893780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-07]=0
+  title: "1.3 \u0417\u0430\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-07 (\u043A\u043E\u0433\u0434\u0430 \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0430 291-VW-M-08 \u043E\u0442\u043A\u0440\u044B\u0442\u0430)"
+  line: 51
+  condition:
+    rid: 1891368946101911645
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911645
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 446062201}
+        value: 0
+        conditionSource: {fileID: 1210646080}
+        conditionValue: 1
 --- !u!1 &1984107472
 GameObject:
   m_ObjectHideFlags: 0
@@ -10638,10 +11008,10 @@ RectTransform:
   - {fileID: 1907595286}
   m_Father: {fileID: 155796036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -242.15167}
-  m_SizeDelta: {x: 592, y: 56}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995461646
 MonoBehaviour:
@@ -10849,52 +11219,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 778862291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2032453140
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2032453141}
-  - component: {fileID: 2032453142}
-  m_Layer: 0
-  m_Name: "\u0413\u0440\u0443\u043F\u043F\u0430 3"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2032453141
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032453140}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1542768243}
-  - {fileID: 1929003944}
-  m_Father: {fileID: 953376242}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2032453142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032453140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5234bba36cd93ca4bbf2630d874fdfb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowGroup
 --- !u!1 &2064733391
 GameObject:
   m_ObjectHideFlags: 0
@@ -11192,6 +11516,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082225304}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2100561731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100561732}
+  - component: {fileID: 2100561733}
+  m_Layer: 0
+  m_Name: "\u041E\u0434\u043D\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100561732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100561731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1136649541}
+  - {fileID: 5552800}
+  - {fileID: 350131317}
+  - {fileID: 2139633600}
+  m_Father: {fileID: 489243046}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100561733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100561731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205632fe5a7a6f243962bb51787181ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowBlock
+  parallel: 1
 --- !u!1 &2138108484
 GameObject:
   m_ObjectHideFlags: 0
@@ -11282,6 +11655,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1984107474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2139633599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139633600}
+  - component: {fileID: 2139633601}
+  m_Layer: 0
+  m_Name: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-04"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139633600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139633599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2100561732}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2139633601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139633599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b23154e276e6054da3219ff5f6117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scenario.Runtime::StudyConstructor.Scenario.FlowStep
+  id: P_PF_3[291-VW-M-04]=1
+  title: "1.1 \u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0437\u0430\u0433\u043B\u0443\u0448\u043A\u0443 291-VW-M-04"
+  line: 30
+  condition:
+    rid: 1891368946101911639
+  violations:
+  - source: {fileID: 1476337617}
+    value: 1
+    message: "\u0412\u0445\u043E\u0434 \u0432 \u043E\u043F\u0430\u0441\u043D\u0443\u044E \u0437\u043E\u043D\u0443 \u0437\u0430\u043F\u0440\u0435\u0449\u0451\u043D"
+  references:
+    version: 2
+    RefIds:
+    - rid: 1891368946101911639
+      type: {class: ActionCondition, ns: StudyConstructor.Scenario, asm: Scenario.Runtime}
+      data:
+        source: {fileID: 1984107473}
+        value: 1
+        conditionSource: {fileID: 0}
+        conditionValue: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -11315,3 +11751,4 @@ SceneRoots:
   - {fileID: 1971671755}
   - {fileID: 1476337621}
   - {fileID: 1884592922}
+  - {fileID: 198401443}

@@ -11,7 +11,8 @@ namespace StudyConstructor.Scenario
     /// <see cref="FlowBlock"/> → <see cref="FlowStep"/>).
     /// <code>
     /// // комментарий (можно и в конце строки), строки на # и \\ — тоже комментарии
-    /// forbid:ZONE*#[Опасная зона]*#Сообщение — запрет; вне групп — на весь сценарий, в блоке — пока блок активен
+    /// forbid:P_TC_1*#[Опасная зона]*#1*#Сообщение — запрет (значение необязательно); вне групп — на весь сценарий,
+    ///                                       в блоке — пока блок активен
     /// start_group:Группа 1                 — группа (необязательно; без групп весь файл — одна группа)
     /// start_parallel                       — всё внутри доступно одновременно
     ///     set_action_number:1.1            — номер действия для следующих шагов блока
@@ -274,13 +275,13 @@ namespace StudyConstructor.Scenario
             CreateNode<FlowStep>(frame.Node, title).Setup(id, title, n, condition);
         }
 
-        /// <summary>forbid:механика*#объект[*#сообщение]</summary>
+        /// <summary>forbid:механика*#объект[*#значение][*#сообщение] — без значения запрещено любое действие.</summary>
         private static ViolationRule ParseForbid(string code, int n, IReadOnlyCollection<EventSource> sources, List<string> errors)
         {
             string[] parts = Split(code, ForbidPrefix);
-            if (parts.Length < 2 || parts.Length > 3)
+            if (parts.Length < 2 || parts.Length > 4)
             {
-                errors.Add(Error(n, "ожидается forbid:<механика>*#[<объект>]*#<сообщение>"));
+                errors.Add(Error(n, "ожидается forbid:<механика>*#[<объект>]*#<значение>*#<сообщение>"));
                 return null;
             }
 
@@ -288,8 +289,20 @@ namespace StudyConstructor.Scenario
             if (source == null)
                 return null;
 
-            string message = parts.Length > 2 && parts[2].Length > 0 ? parts[2] : $"Запрещённое действие с объектом {source.name}";
-            return new ViolationRule(source, message);
+            var rest = parts.Skip(2).ToList();
+            string value = rest.Count > 0 && source.IsValidValue(rest[0]) ? rest[0] : null;
+            if (value != null)
+                rest.RemoveAt(0);
+            if (rest.Count > 1)
+            {
+                errors.Add(Error(n, $"значение «{rest[0]}» не подходит для механики {source.Mechanic}"));
+                return null;
+            }
+
+            string message = rest.Count > 0 && rest[0].Length > 0
+                ? rest[0]
+                : $"Запрещено: {(value != null ? source.Describe(value) : $"любое действие с объектом {source.name}")}";
+            return new ViolationRule(source, value, message);
         }
 
         /// <summary>Условие вида [объект]=значение: объект должен быть механикой с состоянием.</summary>

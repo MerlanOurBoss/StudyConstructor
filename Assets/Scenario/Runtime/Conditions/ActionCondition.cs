@@ -35,7 +35,9 @@ namespace StudyConstructor.Scenario
                 return StepCheck.Ignored;
 
             if (signal.Value != value)
-                return StepCheck.Violated($"Неверное действие: {source.Describe(signal.Value)}. Нужно: {source.Describe(value)}");
+                return source.WrongValueIsViolation
+                    ? StepCheck.Violated($"Неверное действие: {source.Describe(signal.Value)}. Нужно: {source.Describe(value)}")
+                    : StepCheck.Ignored;
 
             if (conditionSource != null && conditionSource.CurrentValue != conditionValue)
                 return StepCheck.Violated(

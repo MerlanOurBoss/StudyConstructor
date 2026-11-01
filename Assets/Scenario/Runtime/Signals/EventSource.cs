@@ -20,6 +20,12 @@ namespace StudyConstructor.Scenario
 
         public virtual bool IsValidValue(string value) => value == "1";
 
+        /// <summary>
+        /// Действие с другим значением, чем нужно шагу, — нарушение (закрыл вместо «открыть»).
+        /// Механики, где это не ошибка (выход из зоны), возвращают false — такое действие шаг просто не учитывает.
+        /// </summary>
+        public virtual bool WrongValueIsViolation => true;
+
         /// <summary>Текст задания для ученика, например «Открыть заглушку 291-VW-M-19».</summary>
         public virtual string Describe(string value) => $"{Mechanic} [{name}] = {value}";
 

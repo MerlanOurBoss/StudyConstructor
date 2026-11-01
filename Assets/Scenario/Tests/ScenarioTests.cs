@@ -245,6 +245,56 @@ namespace StudyConstructor.Scenario.Tests
             Assert.AreEqual(0, run.Steps[1].Violations);
         }
 
+        // ---------- Механики P_BT_1 и P_TC_1 ----------
+
+        [Test]
+        public void Button_Press_CompletesStep()
+        {
+            var button = Add<ButtonMechanic>("КН-1");
+            var (run, _) = Start("exec:P_BT_1*#[КН-1]", new TrainingRules());
+            Assert.AreEqual("Нажать кнопку КН-1", run.Steps[0].Step.Title);
+
+            button.UsePrimary();
+
+            Assert.IsTrue(run.IsFinished);
+        }
+
+        [Test]
+        public void Zone_ExitWhileEnterNeeded_IsNotViolation()
+        {
+            var zone = Add<ZoneMechanic>("Выход");
+            var player = Player();
+            var (run, _) = Start("exec:P_TC_1*#[Выход]*#1", new TrainingRules());
+
+            zone.SendMessage("OnTriggerEnter", player);
+            Assert.IsTrue(run.IsFinished);
+
+            (run, _) = Start("exec:P_TC_1*#[Выход]*#1", new TrainingRules());
+            zone.SendMessage("OnTriggerExit", player);
+            Assert.AreEqual(0, run.Steps[0].Violations);
+            Assert.AreEqual(StepStatus.Active, run.Steps[0].Status);
+        }
+
+        [Test]
+        public void Zone_StateWorksInCondition_AndForbidWithValueBlocksOnlyEnter()
+        {
+            var zone = Add<ZoneMechanic>("Площадка");
+            var danger = Add<ZoneMechanic>("Опасная зона");
+            var player = Player();
+            var (run, _) = Start(Lines(
+                "forbid:P_TC_1*#[Опасная зона]*#1*#Нельзя",
+                Exec(1, 1) + "*#if:[Площадка]=1"), new TrainingRules());
+
+            Plug(1).UsePrimary();                           // вне площадки — нарушение
+            danger.SendMessage("OnTriggerEnter", player);   // запрещённый вход
+            danger.SendMessage("OnTriggerExit", player);    // выход не запрещён
+            Assert.AreEqual(2, run.Steps[0].Violations);
+
+            zone.SendMessage("OnTriggerEnter", player);
+            Plug(1).UsePrimary();
+            Assert.IsTrue(run.IsFinished);
+        }
+
         // ---------- Контрольные примеры ----------
 
         [Test]
@@ -285,6 +335,23 @@ namespace StudyConstructor.Scenario.Tests
         // ---------- Вспомогательное ----------
 
         private PlugMechanic Plug(int index) => (PlugMechanic)sources[index - 1];
+
+        private T Add<T>(string name) where T : EventSource
+        {
+            var go = new GameObject(name);
+            created.Add(go);
+            go.AddComponent<BoxCollider>().isTrigger = true;
+            var source = go.AddComponent<T>();
+            sources.Add(source);
+            return source;
+        }
+
+        private Collider Player()
+        {
+            var go = new GameObject("Player") { tag = "Player" };
+            created.Add(go);
+            return go.AddComponent<BoxCollider>();
+        }
 
         private static string Exec(int plug, int value) => $"exec:P_PF_3*#[P{plug}]*#{value}";
 
