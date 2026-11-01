@@ -1,5 +1,4 @@
 using System.Runtime.CompilerServices;
 
-// Генерация сценария в редакторе и тесты собирают сценарий из кода. Пользователь работает через текст и Inspector.
+// Генерация сценария в редакторе записывает в режим сгенерированную иерархию.
 [assembly: InternalsVisibleTo("Scenario.Editor")]
-[assembly: InternalsVisibleTo("Scenario.Tests")]

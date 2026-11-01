@@ -38,18 +38,6 @@ namespace StudyConstructor.Scenario
         [Tooltip("Как оценивается результат после прохождения. Журнал можно заново оценить любым анализатором.")]
         [SerializeReference, SelectType] private ResultAnalyzer analyzer = new TrainingScoreAnalyzer();
 
-        public ScenarioMode() { }
-
-        internal ScenarioMode(string name, ExecutionRules rules, ResultAnalyzer analyzer, TextAsset script = null)
-        {
-            this.name = name;
-            this.rules = rules;
-            this.analyzer = analyzer;
-            this.script = script;
-        }
-
-        internal void SetOutOfOrder(OutOfOrderPolicy policy) => outOfOrder = policy;
-        internal void SetIgnoreGroups(bool ignore) => ignoreGroups = ignore;
         internal void SetFlow(ScenarioFlow generated) => flow = generated;
 
         public string Name => name;

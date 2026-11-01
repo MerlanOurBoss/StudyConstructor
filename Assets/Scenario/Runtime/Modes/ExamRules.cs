@@ -14,10 +14,6 @@ namespace StudyConstructor.Scenario
         [Tooltip("Сколько нарушений в группе допускается, прежде чем её оставшиеся шаги будут пропущены.")]
         [SerializeField, Min(1)] private int violationThreshold = 2;
 
-        public ExamRules() { }
-
-        internal ExamRules(int violationThreshold) => this.violationThreshold = violationThreshold;
-
         public override StepStatus StatusAfterViolation(StepRuntime step) => StepStatus.Failed;
 
         public override bool ShouldSkipRest(GroupRuntime group) => group.Violations >= violationThreshold;
