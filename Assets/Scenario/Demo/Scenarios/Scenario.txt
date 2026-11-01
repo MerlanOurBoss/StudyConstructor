@@ -1,0 +1,64 @@
+// Учебный сценарий для обоих режимов.
+// Экзамен проходит его по группам: ошибка — шаг Failed; если в группе набралось столько нарушений,
+// сколько указано в пороге режима (по умолчанию 2), оставшиеся шаги группы пропускаются (Skipped).
+// Тренировка (галочка Ignore Groups в режиме) проходит все шаги одной группой, ошибку можно исправить.
+//
+// Шаг:     exec:<механика>*#[<объект>]*#<значение>*#if:[<объект>]=<значение>
+//          значение можно не писать (будет 1); условие if необязательно
+//   P_PF_3    — заглушка: 1 — открыть, 0 — закрыть (подойти: E — открыть, Q — закрыть)
+//   BUTTON    — кнопка на пульте        ZONE  — зона на площадке
+//   COLLISION — столкновение с объектом EVENT — действие из UnityEvent (рычаг на пульте)
+// Блоки:   start_parallel ... stop_parallel     — шаги внутри доступны сразу, в любом порядке
+//          start_continuous ... stop_continuous — шаги внутри строго по очереди
+// Группа:  start_group:<название> ... stop_group — группы идут по очереди
+// Запрет:  forbid:<механика>*#[<объект>]*#<сообщение> — вне групп действует на весь сценарий,
+//          внутри блока — пока блок активен
+// Номер:   set_action_number:<номер> — подписывает следующие шаги блока
+// После правки файла нажмите «Сгенерировать сценарии» в Scenario Runner.
+
+forbid:ZONE*#[Опасная зона]*#Вход в опасную зону запрещён
+
+start_group:Группа 1
+	start_parallel
+		set_action_number:1.1
+		exec:P_PF_3*#[291-VW-M-01]*#1
+		exec:P_PF_3*#[291-VW-M-02]*#1
+		exec:P_PF_3*#[291-VW-M-03]*#1
+		exec:P_PF_3*#[291-VW-M-04]*#1
+	stop_parallel
+stop_group
+
+start_group:Группа 2
+	start_continuous
+		set_action_number:1.2
+		exec:P_PF_3*#[291-VW-M-05]*#1
+		exec:P_PF_3*#[291-VW-M-06]*#1
+		exec:P_PF_3*#[291-VW-M-05]*#0
+		exec:P_PF_3*#[291-VW-M-06]*#0
+	stop_continuous
+stop_group
+
+start_group:Группа 3
+	// Две независимые ветки: каждая по порядку, а между собой — в любом порядке.
+	// Закрыть 07 можно, только пока 08 открыта.
+	start_parallel
+		start_continuous
+			set_action_number:1.3
+			exec:P_PF_3*#[291-VW-M-07]*#1
+			exec:P_PF_3*#[291-VW-M-07]*#0*#if:[291-VW-M-08]=1
+		stop_continuous
+		start_continuous
+			set_action_number:1.4
+			exec:P_PF_3*#[291-VW-M-08]*#1
+			exec:P_PF_3*#[291-VW-M-08]*#0
+		stop_continuous
+	stop_parallel
+
+	start_parallel
+		set_action_number:1.5
+		exec:EVENT*#[Рычаг]
+		exec:COLLISION*#[Ящик]
+		exec:BUTTON*#[Доклад]
+		exec:ZONE*#[Выход]
+	stop_parallel
+stop_group
